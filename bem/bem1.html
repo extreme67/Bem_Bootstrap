@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>bem</title>
+    <title>bem-page</title>
 
     <link rel="stylesheet" href="assets/normalize_bem.css" />
     <link rel="stylesheet" href="assets/style_bem.css" />
   </head>
-</html>
-<body class="body">
+
+<body class="body-list">
     
     <header class="header">
         <div class="header__browser"> <img src="assets/image/browser.png" alt="browser"></div>
@@ -20,33 +20,62 @@
       </nav>
     </header>
 
-    <main class="">
+    <main class="main">
 
-    <h1 class="">Виртуальная реальность без проводов</h1>
+    <h1 class="main__heading">ВОЗМОЖНОСТИ</h1>
 
-    <div class="main main__conteiner">
-        <div class="main__conteiner box_1">
-            <div class="page-box_1"></div>
-            <div class="text-box_1"></div>
+    <div class="main__conteiner">
+        <div class="main__box box_1">
+          <div class="box_1 box-1__1">
+          <img class="main__page-box page-box-1" src="assets/image/Illustration_1.png" alt="image1">
+          <h2 class="main__heading-box heading-box_1">БЕЗ ПРОВОДОВ</h2>
+            <p class="main__text-box text-box_1">Шлем работает без проводов. 
+              Не нужен ни компьютер, ни внешнее питание, ни большое помещение, 
+              чтобы расставить трекеры.</p>
+            </div>
+          
         </div>
-        <div class="main__conteiner box_2">
-            <div class="page-box_2"></div>
-            <div class="text-box_2"></div>
+        <div class="main__box box_2">
+          <div class="box_2 box-2__2">
+          <img class="main__page-box page-box-2" src="assets/image/Illustration_2.png" alt="image2"> 
+          <h2 class="main__heading-box heading-box_2">БЕЗ КОМПЬЮТЕРА</h2>
+          <p class="main__text-box text-box_2">Современным VR-шлемам нужен мощный компьютер,
+          чтобы запускать игры. Наш шлем запускает игры из облака, поэтому
+          просто наслаждайтесь.</p>
         </div>
-        <div class="main__conteiner box_3">
-            <div class="page-box_3"></div>
-            <div class="text-box_3"></div>
         </div>
-        <div class="main__conteiner box_4">
-            <div class="text-box_4"></div>
+        <div class="main__box box_3">
+          <div  class="box_3 box-3__3">
+          <img class="main__page-box page-box-3"src="assets/image/Illustration_3.png" alt="image3"> 
+          <h2 class="main__heading-box heading-box_3">ДО 10 ЧАСОВ РАБОТЫ</h2>
+          <p class="main__text-box text-box_3">Несмотря на компактность и производительность, 
+          шлем может работать до 10 часов — даже, если вы играете в самые
+          ресурсоемкие игры.</p>
         </div>
-        <div class="main__conteiner box_5">
-            <div class="text-box_5"></div>
+        </div>
+        <div class="main__box box_4">
+            <div class="box_4 box-4__4">
+            <h2 class="main__heading-box heading-box_4">СОТНИ ИГР</h2>
+            <p class="main__text-box text-box_4">Уже сейчас вам доступно более сотни игр:
+            от высокобюджетных ААА-тайтлов до маленьких независимых проектов. 
+            Скоро их станет еще больше.</p>
+          </div>
+        </div>
+        <div class="main__box box_5">
+          <div class="box_5 box-5__5">
+          <h2 class="main__heading-box heading-box_5">ПОЧТИ ДАРОМ</h2>
+          <p class="main__text-box text-box_5">По сравнению с другими VR-шлемами наш стоит 
+          гораздо меньше. И вы существенно экономите на мощном 
+          компьютере.</p>
+        </div>
         </div>
 
-        <div class="main__conteiner box_6">
-            <p class="text-box_6"> </p>
-            <input type="email" name="email" value="Эл. почта"> 
+        <div class="main__box box_6">
+          <div class="box_6 box-6__6">
+            <h2 class="main__heading-box heading-box_6"> НОВОСТИ </h2>
+            <input class="main__email-input" type="email" name="email" value="Эл. почта"> 
+            <button class="button box-button">подписаться</button>
+          </div>
         </div>
 
         
@@ -55,12 +84,20 @@
     </main>
     
     <footer class="footer">
-      <ul class="footer footer__conteiner">
-        <li class=><a class="" href="#"> Возможности </a></li>
-        <li class=><a class="" href="#"> Где купить </a></li>
-        <li class=><a class="" href="#"> Доставка </a></li>
-        <li class=><a class="" href="#"> Помощь </a></li>
+      <ul class="footer__conteiner">
+        <li class="footer-item">
+          <a class="footer-link footer-link__list" href="#"> Возможности </a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link footer-link__list" href="#"> Где купить </a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link footer-link__list" href="#"> Доставка </a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link footer-link__list" href="#"> Помощь </a>
+        </li>
       </ul>
-    </footer>
+
   </body>
 </html>
